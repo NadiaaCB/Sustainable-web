@@ -43,13 +43,14 @@ body, html {
     top: 0;
     width: 100%;
     z-index: 110;
-    padding: 15px 30px;
+    padding: 2px 30px;
     border-bottom: solid 3px #000000;
+    padding-bottom: 0px;
 }
 
 /* Jeg ændrer på størrelsen af mit logo */
 .logo1 {
-    width: 130px;
+    width: 150px;
 }
 
 /* Style the navigation menu */
@@ -86,7 +87,7 @@ body, html {
   
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
-    background-color: #257051;
+    background-color: #FEFFFD;
     color: black;
   }
   
@@ -126,11 +127,11 @@ footer {
 }
 
 .footerv {
-    margin-top: 600px;
+    margin-top: 700px;
 }
 
 .footerh {
-    margin-top: 500px;
+    margin-top: 550px;
 }
 /*********************************footer slut*********************************/
 
@@ -189,6 +190,7 @@ footer {
 .content-section .content .button {
     text-align: center;
     cursor: none;
+    text-decoration: none;
 }
 
 .content-section .content .button a {
@@ -202,11 +204,13 @@ footer {
     background-color: #257051;
     color: #257051;
     cursor: none;
+    text-decoration: none;
 }
 
 .content-section .social {
     text-align: center;
     cursor: none;
+    text-decoration: none;
 }
 
 .content-section .social i{
@@ -214,11 +218,13 @@ footer {
     padding: 0 10px;
     font-size: 30px;
     cursor: none;
+    text-decoration: none;
 }
 
 .content-section .social i:hover {
     color: #257051;
     cursor: none;
+    text-decoration: none;
 }
 
 /****************************************/
@@ -244,6 +250,7 @@ footer {
 .image-section img {
     width: 100%;
     height: auto;
+    margin-top: 200px;
 }
 
 .content-section .title {
@@ -274,6 +281,26 @@ footer {
 .footerv {
     margin-top: 100px;
 }
+
+.footerh {
+    margin-top: 20px;
+}
+
+}
+/*****************************IPAD*****************************/
+@media only screen and (min-width: 768px)and (max-width: 991px){
+
+    .image-section img {
+        margin-top: 400px;
+    }
+
+    .footerv{
+        margin-top: 20px;;
+    }
+
+    .footerh {
+        margin-top: -100px;
+    }
 
 }
 

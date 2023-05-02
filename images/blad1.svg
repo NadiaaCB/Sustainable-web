@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 767.9 465.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-width: 5px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #1d1d1b;
+        font-family: Arial-BoldMT, Arial;
+        font-size: 48.4px;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #0b602c;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M295.3,226.1S190.9,68.5,415.7,2.7c0,0-16.4,21.9,0,41.1,0,0,78.7,175.4-89.5,182.3"/>
+  <path class="cls-1" d="M314.5,169s-16.7-36.1-7.1-54.6"/>
+  <path class="cls-1" d="M347,114.4s-22.1-24.3,0-31.2"/>
+  <path class="cls-1" d="M304.4,195.2s41-27.2,72-26.2"/>
+  <path class="cls-1" d="M328.1,141.7s30.9-36,68.4-27.3"/>
+  <path class="cls-2" d="M396.5,252.5s38.4-129.2,194.6-26.5l24.7,26.5s-63-18.8-74,0c0,0-53.2,105.8-145.3,24.3"/>
+  <path class="cls-1" d="M434.1,245.2s-12.9-31.5,25.5-34.2"/>
+  <path class="cls-1" d="M459.5,243.9s38.4-40.2,60.3-15.8"/>
+  <path class="cls-2" d="M196.7,231.4S7,255.4,1.5,103.6V50.5s19.2,46.6,27.4,27.4c0,0,184.8-4.6,167.8,111.4"/>
+  <path class="cls-1" d="M171.7,195.2s24.7-46.1,0-53.5"/>
+  <path class="cls-1" d="M147.5,186.4s-33.3,16.3-82.6-4.3"/>
+  <path class="cls-1" d="M32,127.4s35.6,68.8,87.7,41.6"/>
+  <path class="cls-1" d="M376.5,87.7c-96.8,63-100.6,274.1-100.6,276.8,0,0,38.4-120.6,183.6-120.6,0,0,11,29.7,46.6,19.2"/>
+  <path class="cls-1" d="M275.9,364.5s-32.3-109.9-128.4-178.1c-8.7-6.2-18-12-27.8-17.4,0,0-2.7-55.2-43.9-54.5"/>
+  <text class="cls-3"><tspan x="151.2" y="367.4" xml:space="preserve">NCB   DESIGN</tspan></text>
+</svg>
