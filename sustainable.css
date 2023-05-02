@@ -15,6 +15,27 @@ body {
     flex-direction: column;
 }
 
+/* Jeg sørger for der er et billede på min forside */
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+.bg {
+    /* The image used */
+    background-image: url("blad.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/*********************************header start*********************************/
+
 .header {
     background-color: #FEFFFD;
     position: fixed;
@@ -23,6 +44,7 @@ body {
     width: 100%;
     z-index: 110;
     padding: 15px 30px;
+    border-bottom: solid 3px #000000;
 }
 
 /* Jeg ændrer på størrelsen af mit logo */
@@ -73,4 +95,186 @@ body {
     background-color: #257051;
     color: white;
   }
+/*********************************header slut*********************************/
+
+/* Dette er min forside tekst */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+
+/*********************************footer start*********************************/
+  /* Dette er min footer */
+footer {
+    background-color: #FEFFFD;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    line-height: 28px;
+    font-weight: medium;
+    border-top: solid 3px #000000;
+    margin-top: auto;
+}
+
+/* Dette er mit logo i bunden */
+.logoend {
+    width: 80px;
+}
+
+.footerv {
+    margin-top: 600px;
+}
+
+.footerh {
+    margin-top: 500px;
+}
+/*********************************footer slut*********************************/
+
+.section{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 40px;
+}
+
+.container1 {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.content-section {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.image-section {
+    float: none;
+    width: 100%;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.content-section .title {
+    text-align: center;
+    font-size: 19px;
+    margin-top: 65px;
+}
+
+.content-section .content h3{
+    margin-top: 20px;
+    color: #000000;
+    font-size: 21px;
+}
+
+.content-section .content p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.content-section .content .button {
+    text-align: center;
+    cursor: none;
+}
+
+.content-section .content .button a {
+    padding: 9px 30px;
+    text-decoration: none;
+    color: #257051;
+    cursor: none;
+}
+
+.content-section .content .button a:hover{
+    background-color: #257051;
+    color: #257051;
+    cursor: none;
+}
+
+.content-section .social {
+    text-align: center;
+    cursor: none;
+}
+
+.content-section .social i{
+    color: #257051;
+    padding: 0 10px;
+    font-size: 30px;
+    cursor: none;
+}
+
+.content-section .social i:hover {
+    color: #257051;
+    cursor: none;
+}
+
+/****************************************/
+
+@media only screen and (min-width: 767px){
+.container1 {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section {
+    float: left;
+    width: 55%;
+}
+
+.image-section {
+    float: right;
+    width: 40%;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.content-section .title {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.content-section .content .button{
+    margin-top: 30px;
+    cursor: none;
+}
+
+.content-section .content .button a {
+    background-color: #257051;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: #257051;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    cursor: none;
+}
+
+.content-section .social {
+    margin: 40px 40px;
+    cursor: none;
+}
+
+.footerv {
+    margin-top: 100px;
+}
+
+}
+
 
