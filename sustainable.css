@@ -6,10 +6,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --background: #257051;
+}
 
 /* Dette er min baggrundsfarve og tekstfarve */
 body {
-    background: #257051;
+    background-color: var(--background);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
